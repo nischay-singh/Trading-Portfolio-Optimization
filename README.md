@@ -8,7 +8,7 @@ This project aims to perform portfolio optimization using historical stock data.
 
 ## Data Processing ##
 
-After cleaning up the data and filtering the top 150 most liquid stocks, we calculate Garman-Klass Volatility, RSI, ATR, Bollinger Bands, and MACD and normalize them. Our model uses these indicators to make predictions.
+After cleaning up the data and filtering the top 150 most liquid stocks, we calculate Garman-Klass Volatility, RSI, ATR, Bollinger Bands, and MACD and normalize them. In addition, we obtained Fama-Frech Factors and calculated Rolling-Factor Betas. Our model uses these indicators to make predictions. 
 
 ## K-Means Clustering ##
 
